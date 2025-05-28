@@ -10,6 +10,10 @@ Welcome to tmux!
 >
 > This is a lightweight personal modification, not aligned with upstream goals, and not intended as a general replacement.
 > I made this fork to improve my personal workflow and address a design gap I find irritating, but I do not plan to open a pull request upstream.
+>
+> **NOTE**: This breaks the behavior of terminal-based editors, like Vim and Helix. 
+> You can work around this by rebinding the transition to Normal mode to something like "jk". 
+> This is straightfoward in Vim, and I have a personal fork of Helix that implements this exact change if you want it.
 
 tmux is a terminal multiplexer: it enables a number of terminals to be created,
 accessed, and controlled from a single screen. tmux may be detached from a
