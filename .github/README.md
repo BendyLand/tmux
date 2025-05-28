@@ -7,8 +7,8 @@
 > Specifically:
 >  - Pressing `Escape + f` acts as the prefix (instead of the default `Ctrl+b`).
 >  - After that, normal tmux commands work (`c` for new window, etc.).
->  - This is a lightweight personal modification, not aligned with upstream goals, and not intended as a general replacement.
-> 
+>
+> This is a lightweight personal modification, not aligned with upstream goals, and not intended as a general replacement.
 > I made this fork to improve my personal workflow and address a design gap I find irritating, but I do not plan to open a pull request upstream.
 
 tmux is a terminal multiplexer: it enables a number of terminals to be created,
