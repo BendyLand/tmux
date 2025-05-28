@@ -348,6 +348,10 @@ key_bindings_init(void)
 	static const char *const defaults[] = {
 		/* Prefix keys. */
 		"bind -N 'Send the prefix key' C-b { send-prefix }",
+		/* Custom multi-key bindings */
+		"bind -T root Escape { switch-client -T prefix-escape }",
+		"bind -T prefix-escape f { switch-client -T prefix }",
+		/* Remaining normal prefix keys */
 		"bind -N 'Rotate through the panes' C-o { rotate-window }",
 		"bind -N 'Suspend the current client' C-z { suspend-client }",
 		"bind -N 'Select next layout' Space { next-layout }",
