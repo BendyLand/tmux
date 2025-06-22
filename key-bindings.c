@@ -350,6 +350,7 @@ key_bindings_init(void)
 		"bind -N 'Send the prefix key' C-b { send-prefix }",
 		/* Custom multi-key bindings */
 		"bind -T root Escape { switch-client -T prefix-escape }",
+		"bind -T prefix-escape Escape { send-keys Escape }",
 		"bind -T prefix-escape f { switch-client -T prefix }",
 		/* Remaining normal prefix keys */
 		"bind -N 'Rotate through the panes' C-o { rotate-window }",
